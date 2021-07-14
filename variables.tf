@@ -1,13 +1,5 @@
 # Input variable definitions
 
-variable  "access_key" {
-  default = "AKIA46SDTHMIUECMEBMZ"
-} 
-
-variable "secret_key" {
-  default = "QGzC4L2HxdLp8di+n8lSmzcZaxzbzJz94/qbxD6w"
-}
-
 variable "vpc_name" {
   description = "Name of VPC"
   type        = string
